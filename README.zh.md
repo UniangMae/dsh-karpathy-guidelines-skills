@@ -25,19 +25,19 @@ DeepSeek Harness（DSH）插件：把 Andrej Karpathy 的四条编码行为准�
 **方式 1 —— 本地目录**（开发 / 自测，pnpm link）
 
 ```
-dsh plugin --profile desktop add "F:\DeepseekHarness_proj\workzone\work008_agent行为改善\dsh-karpathy-guidelines-skills"
+dsh plugin --profile desktop add "<你的路径>\dsh-karpathy-guidelines-skills"
 ```
 
 **方式 2 —— npm 公开包**（发布之后）
 
 ```
-dsh plugin --profile desktop add dsh-karpathy-guidelines-skills
+dsh plugin --profile desktop add dsh-karpathy-guidelines-skills (暂未发布)
 ```
 
 **方式 3 —— GitHub 仓库**（仓库根目录必须就是本目录内容）
 
 ```
-dsh plugin --profile desktop add github:<你的GitHub用户名>/dsh-karpathy-guidelines-skills
+dsh plugin --profile desktop add github:UniangMae/dsh-karpathy-guidelines-skills
 ```
 
 本包没有 `prepare`/构建步骤，pnpm 不需要构建授权，**不用**改 `allowBuilds`。
