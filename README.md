@@ -24,13 +24,13 @@ The skill body is taken verbatim from [multica-ai/andrej-karpathy-skills](https:
 
 ```
 # 1) local directory (development / self-test, pnpm link)
-dsh plugin --profile desktop add "F:\DeepseekHarness_proj\workzone\work008_agent行为改善\dsh-karpathy-guidelines-skills"
+dsh plugin --profile desktop add "<Your path>\dsh-karpathy-guidelines-skills"
 
 # 2) from npm (after publishing)
-dsh plugin --profile desktop add dsh-karpathy-guidelines-skills
+dsh plugin --profile desktop add dsh-karpathy-guidelines-skills (Not yet released)
 
 # 3) from GitHub (the repository root must be this package)
-dsh plugin --profile desktop add github:<your-github-user>/dsh-karpathy-guidelines-skills
+dsh plugin --profile desktop add github:UniangMae/dsh-karpathy-guidelines-skills
 ```
 
 > **Measured on this machine: no restart needed.** Right after the install, `skill({ name: "karpathy-guidelines" })` returned the SKILL.md body (2026-10-13, `desktop` profile). If the skill list does not refresh, restart DSH once — prompt-side content is assembled when an agent session starts, so a new session is what guarantees it.
