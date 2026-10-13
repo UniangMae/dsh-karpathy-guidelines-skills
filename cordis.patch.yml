@@ -1,0 +1,4 @@
+- insert:
+    - id: skills-karpathy-guidelines
+      name: 'dsh-karpathy-guidelines-skills'
+      config: {}

@@ -1,0 +1,30 @@
+{
+  "name": "dsh-karpathy-guidelines-skills",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness plugin: Andrej Karpathy's coding guidelines shipped as a loadable skill (ported from multica-ai/andrej-karpathy-skills).",
+  "type": "module",
+  "main": "./index.js",
+  "files": [
+    "index.js",
+    "skills",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "skills",
+    "karpathy",
+    "guidelines",
+    "coding-agent"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
